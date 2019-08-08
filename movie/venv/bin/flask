@@ -1,4 +1,4 @@
-#!/Users/rhm/github/test/movie/movie/venv/bin/python
+#!/Users/rhm/github/movie/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
