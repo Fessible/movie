@@ -339,3 +339,39 @@ footer {
 
 
 /*comments*/
+
+
+/*login*/
+.input-lg,.panel,.btn-lg{
+	border-radius: 5px;
+}
+
+.input-lg{
+	font-size: 15px;
+}
+
+.login_body {
+    padding:15px 30px 30px 30px;
+}
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #54b2e4;
+    border-color: #54b2e4;
+}
+
+.list-group-item:first-child{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.list-group-item:last-child{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.label{
+	border-radius: 5px;
+	background: #54b2e4;
+	padding: 5px;
+}
