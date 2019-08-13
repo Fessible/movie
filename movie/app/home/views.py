@@ -26,6 +26,7 @@ def logout():
 def register():
     return render_template('home/register.html')
 
+
 # 会员中心
 @home.route("/user")
 def user():
@@ -37,17 +38,33 @@ def user():
 def password():
     return render_template('home/password.html')
 
+
 # 评论记录
 @home.route('/comments')
 def comments():
-    return  render_template('home/comments.html')
+    return render_template('home/comments.html')
 
-#登陆日志
+
+# 登陆日志
 @home.route('/loginlog')
 def login_log():
     return render_template('home/login_log.html')
 
-#收藏电影
+
+# 收藏电影
 @home.route('/moviecol')
 def movie_collection():
     return render_template('home/movie_col.html')
+
+
+# 搜索
+@home.route('/search')
+def search():
+    return render_template('home/search.html')
+
+
+# 电影播放界面
+@home.route('/play')
+def play():
+    return render_template('home/play.html')
+
