@@ -1,7 +1,7 @@
 {% extends 'admin/base.html' %}
 
 {% block main %}
-      <div class="content-wrapper">
+    <div class="content-wrapper">
         <!--内容-->
         <section class="content-header">
             <h1>微电影管理系统</h1>
@@ -35,4 +35,14 @@
         <!--内容-->
     </div>
 
+{% endblock %}
+
+{% block js %}
+    <script>
+        $(document).ready(function () {
+            $("#g-2").addClass("active");
+            $("#g-2-1").addClass("active")
+        })
+
+    </script>
 {% endblock %}
